@@ -3,7 +3,7 @@
 ## Purpose
 Quote generator app which pulls and displays quotes from an API
 
-### See live code here: wildelyssa.github.io/quote-generator/
+### See live code here: <wildelyssa.github.io/quote-generator/>
 
 ## Tech used
 HTML
