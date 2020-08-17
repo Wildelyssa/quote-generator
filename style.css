@@ -76,7 +76,13 @@ button:hover {
     100% { transform: rotate(360deg); }
   }
 
-  /*  */
+  /*solve touch-screen hover issue- need to test*/
+  @media (hover: none) {
+    button:hover {
+        border-radius: 0.3em;
+        cursor: pointer;
+    }
+  }
 
   @media only screen and (max-width: 800px) {
     .quote-container {
