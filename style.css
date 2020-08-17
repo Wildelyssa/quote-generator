@@ -88,6 +88,7 @@ button:hover {
     .quote-container {
         width: 60%;
   }
+}
 
   @media only screen and (max-width: 700px) {
       button {
@@ -101,3 +102,4 @@ button:hover {
         flex-direction: row;
         justify-content: center;
     }
+  }
