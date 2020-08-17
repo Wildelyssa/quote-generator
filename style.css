@@ -74,31 +74,33 @@ button:hover {
   @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
-  }
+}
 
-  /*solve touch-screen hover issue- need to test*/
-  @media (hover: none) {
+/*solve touch-screen hover issue- need to test*/
+
+@media (hover: none) {
     button:hover {
         border-radius: 0.3em;
         cursor: pointer;
     }
-  }
+}
 
-  @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .quote-container {
         width: 60%;
-  }
+    }
+}
 
-  @media only screen and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
       button {
           padding: 0.5rem;
       }
-  }
+}
 
-  @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .button-container {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
-  }
+}
