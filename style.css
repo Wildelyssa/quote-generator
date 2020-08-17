@@ -48,15 +48,14 @@ button {
     border-radius: 0.3em;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-    text-transform: uppercase;
-      
+    text-transform: uppercase;    
 }
 
-button:hover {
+/*button:hover {
     background:	rgba(206, 242, 242, 0.7);
     border-radius: 0.3em;
     cursor: pointer;
-}
+}*/
 
 .new-quote {
     margin-left: 0.5rem;
@@ -69,17 +68,18 @@ button:hover {
     width: 120px;
     height: 120px;
     animation: spin 2s linear infinite;
-  }
+}
   
-  @keyframes spin {
+@keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
 
 /*solve touch-screen hover issue- need to test*/
 
-@media (hover: none) {
+@media (any-hover: hover) {
     button:hover {
+        background:	rgba(206, 242, 242, 0.7);
         border-radius: 0.3em;
         cursor: pointer;
     }
@@ -92,9 +92,9 @@ button:hover {
 }
 
 @media only screen and (max-width: 700px) {
-      button {
-          padding: 0.5rem;
-      }
+    button {
+        padding: 0.5rem;
+    }
 }
 
 @media only screen and (max-width: 600px) {
