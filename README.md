@@ -17,5 +17,7 @@ JS
 * Loader bar displays when user is waiting for actions to complete
 
 ## Improvements
-* Add owl characer to match the favicon with animation and a speech bubble with a welcome message
 
+* On mobile and touch-screens, the button maintains on :hover propeties
+  * Make a media query to solve this
+* Add owl characer to match the favicon with animation and a speech bubble with a welcome message
