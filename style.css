@@ -48,15 +48,14 @@ button {
     border-radius: 0.3em;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-    text-transform: uppercase;
-      
+    text-transform: uppercase;    
 }
 
-button:hover {
+/*button:hover {
     background:	rgba(206, 242, 242, 0.7);
     border-radius: 0.3em;
     cursor: pointer;
-}
+}*/
 
 .new-quote {
     margin-left: 0.5rem;
@@ -77,8 +76,9 @@ button:hover {
 }
 
 /*solve touch-screen hover issue- need to test*/
-@media (hover: none) {
+@media (any-hover: hover) {
     button:hover {
+        background:	rgba(206, 242, 242, 0.7);
         border-radius: 0.3em;
         cursor: pointer;
     }
@@ -102,4 +102,4 @@ button:hover {
         flex-direction: row;
         justify-content: center;
     }
-}
+  }
