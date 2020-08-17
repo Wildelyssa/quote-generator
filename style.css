@@ -76,6 +76,7 @@ button {
 }
 
 /*solve touch-screen hover issue- need to test*/
+
 @media (any-hover: hover) {
     button:hover {
         background:	rgba(206, 242, 242, 0.7);
@@ -102,4 +103,4 @@ button {
         flex-direction: row;
         justify-content: center;
     }
-  }
+}
